@@ -1,0 +1,16 @@
+body{
+   background-image: url(https://thumbs.dreamstime.com/b/abstract-digital-technology-background-glowing-yellow-lines-circuit-patterns-ai-generated-369586845.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container{
+    height: 50%;
+    width: 75%;
+    border-radius: 20px ;
+
+}
+
+h2{
+    text-align: center;
+}
