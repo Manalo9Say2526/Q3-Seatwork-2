@@ -25,18 +25,20 @@
     <div class="container bg-info text-center mt-5 ">
         <h2>Want A Gaming Laptop?</h2>
             <p>Enter your budget to find the right one!</p>
-        <input type="number" placeholder="Enter Intial Budget" form-control w-30 id="budget">
+        <input class="form-control w-30 text-center" type="number" id="budget" placeholder="Enter Intial Budget">
     </div>
 
     <main>
         <div class="container text-center d-block mt-5">
            <button type="button" class="btn btn-secondary" onclick="checkDiscount()">Brand & Discounts</button>
            <div id="discount"></div>
+
            <button type="button" class="btn btn-secondary" onclick="checkLocation()">Store Location</button>
            <div id="location"></div>
         </div>
     </main>
-
+    
+    
     <div class="container bg-warning text-center mt-3" id="discount-box">
         <h2>Recommended Brands</h2>
         <div class="container text-center d-block mt-2">
@@ -44,12 +46,12 @@
             <button type="button" class="btn btn-outline-primary">Samsung</button>
             <button type="button" class="btn btn-outline-primary">Lenovo</button>
         </div>
-        <h5>Eligble Discount <span class="badge bg-danger mt-3">40000.00</span></h5>
+        <h5>Eligble Discount<span id="budget" class="badge bg-danger mt-3"></span></h5>
         
     </div>
 
     <div class="container bg-info text-center mt-3" id="location-box">
-        <img src="https://villman.com/images/villman_logo_2020.png">
+        <img src="https://villman.com/images/villman_logo_2020.png">    
             <p>
                 3rd Floor, The Annex, SM City North EDSA, Quezon City
                 <br><br>
